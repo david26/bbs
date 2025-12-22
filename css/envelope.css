@@ -82,6 +82,7 @@
   height: 80%;
   font-size: 26px;
   text-align: center;
+  color: #7D4758;
 }
 
 .words.line2 {
@@ -169,7 +170,7 @@ body {
   -webkit-appearance: none;
   border: solid 2px #b5c8d7;
   border-radius: 4px;
-  color: #b5625a;
+  color: #DFA6A5;
   display: inline-block;
   font-size: 14px;
   text-transform: uppercase;
@@ -183,7 +184,7 @@ body {
 
 .reset button:hover {
   background-color: #b5c8d7;
-  color: #b5625a;
+  color: #DFA6A5;
 }
 
 .gold-star-type-1 {
