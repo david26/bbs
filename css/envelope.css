@@ -170,7 +170,7 @@ body {
   -webkit-appearance: none;
   border: solid 2px #b5c8d7;
   border-radius: 4px;
-  color: #DFA6A5;
+  color: #BC045F;
   display: inline-block;
   font-size: 14px;
   text-transform: uppercase;
@@ -184,7 +184,7 @@ body {
 
 .reset button:hover {
   background-color: #b5c8d7;
-  color: #DFA6A5;
+  color: #BC045F;
 }
 
 .gold-star-type-1 {
