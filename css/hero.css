@@ -6,7 +6,7 @@
   border: 0px;
   padding: 0px;
 
-  background-image: url(../img/a.jpg);
+  background: url(../img/bg6.jpeg);
   height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
@@ -58,9 +58,9 @@ h1 {
 }
 
 .timer-wrapper {
-  -webkit-backdrop-filter: blur(25px);
-  backdrop-filter: blur(25px);
-  color: white;
+  -webkit-backdrop-filter: blur(40px);
+  backdrop-filter: blur(40px);
+  color: #330E1A;
   padding: 8px;
   margin-top: 10px;
 }
@@ -89,7 +89,7 @@ h1 {
   height: 10vh !important;
 }
 .hero-legend {
-  color: #fefff1;
+  color: #856A00;
 }
 .ourNames {
   color: white;
@@ -137,7 +137,9 @@ h1 {
 }
 
 .rotating-wrapper {
-  position: relative;
+  width: 80% !important;
+  font-size: 40px;
+  color: #7D4758;
 }
 
 .rotating-wrapper h1 {

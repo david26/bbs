@@ -3,10 +3,11 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-content: flex-start;
-  background: radial-gradient(ellipse at bottom, #524c81 0%, #352948 100%);
   border: 0px;
   padding: 0px;
   overflow: hidden;
+  background: url(../img/bg2.jpeg) no-repeat center center/cover;
+  
 }
 
 .section-two div {
@@ -26,19 +27,24 @@
 }
 
 .section-two-full-name {
-  font-size: 22px;
-  color: #ffec9e;
+  font-size: 52px;
+  color: #BC045F;
   font-weight: 300;
-  
+}
+
+.label {
+  font-size: 22px;
+  color: #B71062;
+  font-weight: 300;
+  margin-bottom: 20px;
 }
 
 .sep-top {
-  margin-top: 60px!important;
+  margin-top: 60px !important;
 }
 
 .section-two-header {
-  margin-top: 60px;
-  font-size: 18px;
+  margin-top: 20px;
   text-align: center;
   color: white;
   padding-left: 50px;
@@ -56,7 +62,7 @@
   text-align: center;
   margin-top: 60px;
   font-size: 18px;
-  color: white;
+  color: #B71062;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -64,6 +70,7 @@
 .section-two-date span {
   width: 100%;
   margin-bottom: 5px;
+  color: #BC045F;
 }
 
 .section-two-location {
@@ -72,13 +79,13 @@
   text-align: center;
   margin-top: 20px;
   font-size: 18px;
-  color: white;
+  color: #BC045F;
   padding-left: 50px;
   padding-right: 50px;
 }
 
 .section-two-location:last-child {
-  margin-bottom: 30px!important;
+  margin-bottom: 30px !important;
 }
 
 .section-two-location span {
@@ -93,7 +100,7 @@
 }
 
 .section-two-date-full {
-  color: #ffec9e;
+  color: #BC045F;
 }
 
 #stars {
@@ -278,6 +285,7 @@
     767px 706px #fff, 431px 334px #fff, 897px 15px #fff, 705px 146px #fff;
   animation: animStar 50s linear infinite;
 }
+
 #stars:after {
   content: " ";
   position: absolute;
@@ -467,6 +475,7 @@
   from {
     transform: translateY(0px);
   }
+
   to {
     transform: translateY(-2000px);
   }

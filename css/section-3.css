@@ -3,11 +3,13 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-content: flex-start;
-  background: #ebebf5;
+  background: #FFFDFB;
   border: 0px;
   padding: 0px;
   min-height: 100vh;
   overflow: hidden;
+  /*background: url(../img/bg5.JPG) no-repeat center center/cover;*/
+
 }
 
 .section-with-icon {
@@ -32,8 +34,7 @@
 }
 
 .section-with-icon img {
-  filter: invert(30%) sepia(9%) saturate(2748%) hue-rotate(207deg)
-    brightness(95%) contrast(86%);
+  filter: brightness(0) saturate(100%) invert(12%) sepia(73%) saturate(6063%) hue-rotate(321deg) brightness(83%) contrast(101%);
 }
 
 .section-with-icon .dress-code {
@@ -64,8 +65,9 @@
   margin-bottom: 15px;
 }
 
-.detail-full .header,.detail .header {
-  color: #076398;
+.detail-full .header,
+.detail .header {
+  color: #BC045F;
   font-size: 20px;
   margin-bottom: 5px;
 }
@@ -76,16 +78,18 @@
   margin-bottom: 10px;
 }
 
-.detail-full .content, .detail .content {
+.detail-full .content,
+.detail .content {
   color: #524c81;
   font-size: 18px;
   margin-bottom: 5px;
 }
-.detail-full{
+
+.detail-full {
   margin-bottom: 10px;
 }
 
-.detail-full a,.detail a {
+.detail-full a,
+.detail a {
   text-decoration: none;
 }
-

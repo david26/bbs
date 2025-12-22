@@ -78,7 +78,7 @@ audio {
 }
 
 .fcc-btn {
-  background-color: #076398;
+  background-color: #BC045F;
   color: white;
   padding: 15px 25px;
   text-decoration: none;
@@ -87,7 +87,7 @@ audio {
 }
 
 .fcc-btn:hover {
-  background-color: #524c81;
+  background-color: #BC045F;
 }
 
 .separator {
@@ -97,8 +97,8 @@ audio {
 }
 
 .separator img {
-  width: 130px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  width: 100%;
+  margin-top: -10px;
+  margin-bottom: 5px;
   
 }

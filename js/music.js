@@ -1,5 +1,5 @@
 const audio = new Audio(
-  "./ms/song.m4a"
+  "./ms/song.mp3"
 );
 audio.autoplay = false;
 audio.loop = true;
