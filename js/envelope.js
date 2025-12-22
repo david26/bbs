@@ -203,6 +203,7 @@ function fadeOutElement(el, elMain) {
 function open() {
   envelope.classList.add("open");
   envelope.classList.remove("close");
+  document.body.style.backgroundColor="#FFFDFB";
   setTimeout(fadeout, 2500)
 }
 
